@@ -1,0 +1,45 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/pullstring
+notes: >-
+  ToyTalk rebranded as PullString in 2016 and was acquired by Apple in early
+  2019. The PullString developer platform (Web API + Author/Converse tooling)
+  was shut down after the acquisition: pullstring.com and toytalk.com no longer
+  resolve (both domains are now parked on Apple nameservers a-d.ns.apple.com),
+  and the github.com/pullstring organization has been deleted (HTTP 404). The
+  first-party JavaScript SDK for the PullString Web API remains published on
+  npm but is orphaned - its repository link is dead and the API it targets no
+  longer exists.
+packages:
+- language: javascript
+  registry: npm
+  name: pullstring
+  url: https://www.npmjs.com/package/pullstring
+  install: npm install pullstring
+  official: true
+  status: orphaned
+  latest_version: 1.1.4
+  description: >-
+    A module to access the PullString Web API. The Web API lets you add text
+    or audio conversational capabilities to your apps, based upon content that
+    you write in the PullString Author environment and publish to the
+    PullString Platform.
+  author: PullString, Inc
+  repository: https://github.com/pullstring/pullstring-js
+  repository_status: 404 (organization deleted)
+registries_probed:
+- registry: npm
+  query: pullstring
+  result: 1 first-party package (pullstring)
+- registry: pypi
+  query: pullstring
+  result: 404 not found
+- registry: rubygems
+  query: pullstring
+  result: 404 not found
+- registry: nuget
+  query: pullstring
+  result: no matches
+- registry: crates.io
+  query: pullstring
+  result: no matches

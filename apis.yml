@@ -1,8 +1,25 @@
 aid: toytalk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toytalk.png
 name: ToyTalk
-description: ToyTalk is a company surfaced as a portfolio company of 500-global, slow-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: ToyTalk was a San Francisco conversational AI company founded in 2011 that built
+  voice and chat characters for entertainment, rebranded as PullString in 2016, and was acquired
+  by Apple in early 2019. Its developer platform - the PullString Web API plus Converse and Author
+  tooling for authoring conversational experiences - was shut down after the acquisition. Today
+  pullstring.com and toytalk.com no longer resolve and both domains are parked on Apple
+  nameservers, the github.com/pullstring organization has been deleted, and the only surviving
+  first-party developer artifact is the orphaned pullstring JavaScript SDK on npm. This profile
+  records that historical developer surface; there is no live API.
 url: https://raw.githubusercontent.com/api-evangelist/toytalk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +28,22 @@ x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Conversational AI
+- Voice
+- Chatbots
+- Entertainment
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,13 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/toytalk-domain-security.yml
 - type: Website
   url: https://pullstring.com
+- type: Packages
+  url: packages/toytalk-packages.yml
+- type: SDKs
+  url: packages/toytalk-packages.yml
+- type: LLMsTxt
+  url: llms/toytalk-llms.txt

@@ -1,0 +1,21 @@
+# ToyTalk (PullString)
+
+> ToyTalk was a San Francisco conversational AI company founded in 2011 that rebranded as PullString in 2016 and was acquired by Apple in early 2019. Its developer platform — the PullString Web API and Converse/Author tooling for building voice and chat experiences — was shut down after the acquisition. This profile records the historical developer surface; there is no live API.
+
+Status: defunct / acquired. pullstring.com and toytalk.com no longer resolve; both domains are parked on Apple nameservers (a-d.ns.apple.com). The github.com/pullstring organization has been deleted.
+
+## Company
+
+- [ToyTalk profile in the API Evangelist network](https://raw.githubusercontent.com/api-evangelist/toytalk/refs/heads/main/apis.yml): APIs.json profile for this provider
+- [Archived PullString homepage (Wayback Machine, 2018-12-30)](https://web.archive.org/web/20181230171155/https://www.pullstring.com/): last snapshot of the company site before the Apple acquisition
+
+## Packages
+
+- [pullstring on npm](https://www.npmjs.com/package/pullstring): orphaned first-party JavaScript SDK (v1.1.4) for the retired PullString Web API — "add text or audio conversational capabilities to your apps" — published by PullString, Inc; its GitHub repository no longer exists
+
+## Artifacts
+
+- [Packages inventory](packages/toytalk-packages.yml): registry-by-registry search results for surviving first-party client libraries
+- [Domain security probe](security/toytalk-domain-security.yml): DNS/TLS posture of the parked domains
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + live registry/DNS probes -->
