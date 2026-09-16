@@ -23,14 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toytalk.png
 name: ToyTalk
-description: ToyTalk was a San Francisco conversational AI company founded in 2011 that built
-  voice and chat characters for entertainment, rebranded as PullString in 2016, and was acquired
-  by Apple in early 2019. Its developer platform - the PullString Web API plus Converse and Author
-  tooling for authoring conversational experiences - was shut down after the acquisition. Today
-  pullstring.com and toytalk.com no longer resolve and both domains are parked on Apple
-  nameservers, the github.com/pullstring organization has been deleted, and the only surviving
-  first-party developer artifact is the orphaned pullstring JavaScript SDK on npm. This profile
-  records that historical developer surface; there is no live API.
+description: ToyTalk was a San Francisco conversational AI company founded in 2011 that built voice and
+  chat characters for entertainment, rebranded as PullString in 2016, and was acquired by Apple in early
+  2019. Its developer platform - the PullString Web API plus Converse and Author tooling for authoring
+  conversational experiences - was shut down after the acquisition. Today pullstring.com and toytalk.com
+  no longer resolve and both domains are parked on Apple nameservers, the github.com/pullstring organization
+  has been deleted, and the only surviving first-party developer artifact is the orphaned pullstring JavaScript
+  SDK on npm. This profile records that historical developer surface; there is no live API.
 url: https://raw.githubusercontent.com/api-evangelist/toytalk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -46,7 +45,7 @@ x-enrichment:
   pass: local-v1
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Conversational AI
@@ -72,3 +71,4 @@ common:
   url: packages/toytalk-packages.yml
 - type: LLMsTxt
   url: llms/toytalk-llms.txt
+x-status: defunct
